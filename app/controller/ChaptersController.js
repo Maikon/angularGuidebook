@@ -12,4 +12,4 @@ Guidebook.controller('ChaptersController',
         $location.path('/deleteNote/' + $routeParams.chapterId + '/' + noteId);
       }
     }
-  })
+  });
