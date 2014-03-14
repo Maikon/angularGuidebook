@@ -11,5 +11,5 @@ Guidebook.controller('ChaptersController',
       if (confirmDelete) {
         $location.path('/deleteNote/' + $routeParams.chapterId + '/' + noteId);
       }
-    }
+    };
   });
